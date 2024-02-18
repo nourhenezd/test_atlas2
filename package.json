@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.6",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "embla-carousel": "^6.0.2",
+    "embla-carousel-autoplay": "^6.0.2",
+    "embla-carousel-react": "^6.0.2",
+    "framer-motion": "^5.3.3",
+    "graphql": "^16.1.0",
+    "mapbox-gl": "^2.6.1",
+    "motion": "^10.4.0",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^17.0.2",
+    "react-map-gl": "^6.1.18",
+    "react-mapbox-gl": "^5.1.1",
+    "react-markdown": "^7.1.1",
+    "react-screentype-hook": "^1.0.17",
+    "react-text-truncate": "^0.17.0",
+    "sharp": "^0.29.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}

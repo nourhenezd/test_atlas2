@@ -1,0 +1,33 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-xl md:text-2xl md:font-bold font-semibold;
+  }
+  h2 {
+    @apply text-base md:text-xl md:font-bold;
+  }
+  p {
+    @apply text-base;
+  }
+  @font-face {
+    font-family: 'frc-navicon';
+    font-weight: 400;
+    src: url('/fonts/frc-navicons-v1.ttf');
+  }
+}
+
+@layer components {
+  .nav-icon {
+    @apply border-2 p-2 bg-black hover:bg-blue-100 h-11 w-11 text-2xl rounded-full flex items-center justify-center font-icon text-white hover:text-gray-700;
+  }
+  .nav-icon-active {
+    @apply border-2 p-2 bg-blue-100 h-11 w-11 text-2xl rounded-full flex items-center justify-center font-icon text-gray-700;
+  }
+  .nav-selected {
+    @apply bg-gray-500 h-1;
+  }
+}
