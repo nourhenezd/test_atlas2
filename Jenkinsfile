@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupération du code à partir du référentiel Git
-                git 'https://github.com/nourhenezd/test_atlas2.git'
+                git credentialsId: 'test_atlast2', 
+                url: 'https://github.com/nourhenezd/test_atlas2.git'
             }
         }
         
