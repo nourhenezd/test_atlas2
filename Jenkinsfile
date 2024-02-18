@@ -10,6 +10,17 @@ pipeline {
             }
         }
         
+        stage("Building Project") {
+           steps {
+	   bat 'npm install --global yarn '
+           bat "yarn install"
+           bat "yarn  run build"
+           
+           
+           }
+       
+       }
+       
         // Ajoutez d'autres étapes de construction, de test, etc., selon vos besoins
         // stage('Build') {
         //     steps {
